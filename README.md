@@ -7,7 +7,7 @@ Include the date you created this project and README file.
 Replace the Project Title
 
 ### Description
-Describe what your project is about and what it does
+This project is about a dataset with bike share systems in the US, and we had to answer some questions about the dataset.
 
 ### Files used
 Include the files used
