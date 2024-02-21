@@ -3,7 +3,7 @@ ny = read.csv('new_york_city.csv')
 wash = read.csv('washington.csv')
 chi = read.csv('chicago.csv')
 
-# Comment
+# Head Section
 head(ny)
 head(wash)
 head(chi)
@@ -60,7 +60,7 @@ new_york_data <- filter(combined_data, City == "New York")
 # Count occurrences of each start station
 new_york_start_station_counts <- table(new_york_data$Start.Station)
 
-# Find the most common start station
+# Find the most common start station for bikers
 most_common_new_york_start_station <- names(new_york_start_station_counts)[which.max(new_york_start_station_counts)]
 most_common_new_york_start_station
 
