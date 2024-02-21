@@ -3,6 +3,7 @@ ny = read.csv('new_york_city.csv')
 wash = read.csv('washington.csv')
 chi = read.csv('chicago.csv')
 
+# Head Section
 head(ny)
 head(wash)
 head(chi)
